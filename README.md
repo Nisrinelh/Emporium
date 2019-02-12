@@ -1,19 +1,19 @@
-#Projet Web en JS
+# Projet Web en JS
 
 #### Instructions :
-- Reproduire l'image en HTML/CSS
-- Au clique du bouton Connection un modal s'ouvre avec une petite navigation et un contenu qui change selon le choix
+- Reproduire l'image en HTML/CSS. Pour le js vous pouvez utiliser les fonctionnalités de bootstrap sauf pour :
+- Au clique du bouton *Connection* un modal s'ouvre avec une petite navigation et un contenu qui change selon le choix
   - Connexion **"button de nav du modal"**
     - Email 
-    - Mot de pass 
+    - Mot de passe
   - Inscription **"button de nav du modal"**
     - Nom 
-    - Prenom
+    - Prénom
     - Age
     - Email
     - Mot de pass 
-- Au scroll la navbar se collapse
-- A côté du bouton **"Connexion"** deux carrés l'un noir et l'un black qui permetront de changer le theme du site
+- Au scroll la navbar réapparait (voir site)
+- A côté du bouton **"Connexion"** deux carrés l'un blanc et l'autre noir qui permetront de changer le theme du site (au moins pour la navbar)
 
 #### [Adresse du site web](https://demo.goodlayers.com/infinite/homepages/emporium/#)
 
@@ -56,3 +56,17 @@
 - La todolist
 - Le projet web js "emporium"
 
+#### git
+  - Savoir Créer des branches et travailler dessus
+  - Faire des commits, **claires et utiles**
+  - Utiliser le fichier .gitignore
+
+#### github
+  - Mettre son projet sur github
+  - Remplir le fichier README.md avec comme contenu l'explication du projet
+
+#### markdown
+  - Le README.md de github doit prouver que le markdown est maitrisé (en mettant divers raccourcis markdown)
+
+#### emmet
+  - Pouvoir montrer l'utilisation d'emmet
