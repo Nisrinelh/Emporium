@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./source/style.css">
     <link href="/https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
@@ -21,7 +22,8 @@
     </div>
 
         <!-- NAV BAR -->
-        <div class="navBar text-center col-12 lg-4 md-4">
+
+        <div class="navBar text-center fixed">
                 <!-- <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -41,33 +43,150 @@
 
 <!--CONTAINER 2 = SHOP AT EMPORIUM-->
 
- <div class="banner col-12 lg-4 md-4">
+ <section class="banner ">
 
     <div class="container">
     <div class="row">
          
 
-         <div class="col-6 bloc1 p-0">
-             <span class="shopAt">Shop at</span>
+         <div class="col-sm-6  col-12 bloc1 p-0">
+             <span class="shopAt">Shop at</span><br>
              <span class="emporium">emporium.</span>
              <p class="txt1">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my.</p>
              <button type="submit" class="saleItems">Sale items</button>
          </div>
 
-        <div class="col-6 bloc2 p-0">
-            <img src="./images/slider-1.jpg" alt="Brand_Minute" class="img-fluid pl-5">
+        <div class="col-sm-6 col-12 bloc2 p-0">
+            <img src="./images/slider-1.jpg" alt="Brand_Minute" class="img-fluid ">
         </div>
 
     </div>
     </div>
-</div>
+ </section>
 
 
 <!--    CONTAINER 3 = SERVICES-->
 
+<div class="container">
+        <div class="services">
+            <div class="row pt-4 pb-5">
+                <div class="col-md-4">
+                    <div class="text-center room">
+                        <a>
+                            <h1>Living Room</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center items">
+                        <a>
+                            <h1>Sale Items</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center clothes">
+                        <a>
+                            <h1>Clothes</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+     <!-- PRODUCTS -->
+     <div class="container products pb-5 mb-5">
+            <h2 class="text-center py-5 m-0">Recent Products</h3>
+                <div class="row pt-5">
+                    <div class="col-md-4">
+                        <img class="img-fluid pb-3" 
+                        src="./images/products_mini/product-luxry-sofa.jpg" alt="">
+                        <div class="text-center pt-4 pb-5">
+                            <h3><a>Luxury Sofa</h3><a>
+                                <span>$600.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid pb-3" src="./images/products_mini/product-gloves.jpg" alt="">
+                        <div class="justify-content-center d-flex pt-4 pb-5">
+                                <span class="onsale">Sale!</span>
+                                <div>
+                                    <h3><a>Leather Gloves</a></h3>
+                                    <span class="pr-2">$34.00</span>
+                                    <span>$27.00</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid pb-3" src="./images/products_mini/product-cups.jpg" alt="">
+                        <div class="text-center pt-4 pb-5">
+                            <h3><a>Colorful Bowl</h3></a>
+                            <span>$18.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-fluid pb-3" src="./images/products_mini/product-bag.jpg" alt="">
+                        <div class="justify-content-center d-flex pt-4 pb-5">
+                            <span class="onsale">Sale!</span>
+                            <div>
+                                <h3><a>Women Bag</a></h3>
+                                <span class="pr-2">$420.00</span>
+                                <span>$350.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid pb-3" src="./images/products_mini/product-tshitr.jpg" alt="">
+                        <div class="text-center pt-4 pb-5">
+                            <h3><a>Minimal T-Shirt</h3></a>
+                            <span>$15.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid pb-3" src="./images/products_mini/product-plates.jpg" alt="">
+                        <div class="text-center pt-4 pb-5">
+                            <h3><a>Plates Set</h3></a>
+                            <span>$30.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-fluid pb-3" src="./images/products_mini/product-modern-sofa.jpg" alt="">
+                        <div class="text-center pt-4 pb-5">
+                            <h3><a>Modern Sofa</h3></a>
+                            <span>$900.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid pb-3" src="./images/products_mini/product-bed.jpg" alt="">
+                        <div class="text-center pt-4 pb-5">
+                            <h3><a>Bed Linen</a></h3>
+                            <span>$79.00</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid pb-3" src="./images/products_mini/product-shoes.jpg" alt="">
+                        <div class="text-center pt-4 pb-5">
+                            <h3><a>Minimal Shoes</h3></a>
+                            <span>$60.00</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    
+    
 
 
 
+
+    
    <script src="./public/js/script.js"></script> 
+   <script src="./"></script>
+   <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
+
