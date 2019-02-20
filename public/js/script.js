@@ -1,3 +1,45 @@
+//Nav bar fixed sticky
+
+
+
+
+let nav = document.getElementById('navbar')
+
+let prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    let currentScrollPos = window.pageYOffset;
+    if (
+        document.body.scrollTop > 600 ||
+        document.documentElement.scrollTop > 600
+
+    ) {
+        //fixer la navbar
+        nav.classList.add('fixed-top','py-3',)
+        nav.style.transition = '3s'
+
+
+    } else {
+        nav.classList.remove('fixed-top','py-3',)
+        nav.style.transition = '3s'
+    }
+}
+
+
+
+        
+            
+			
+
+
+
+
+
+
+
+
+
+
+
 //Animation carousel
 let carousel = document.querySelector("#carousel .row");
 let icons = document.querySelectorAll("#carousel i");
@@ -18,7 +60,7 @@ for (let i = 0; i < icons.length; i++) {
    });
 };
 
-//carousel.style.transform = translateX(30%)
+// carousel.style.transform = translateX(30%) // ne fonctionne pas ?
 
 //Animation pour changer la couleur du body(noir et blanc)
 
@@ -28,9 +70,10 @@ let body = document.body
 
 let changeColor = () => {
    body.style.backgroundColor = "grey";
-   body.style.transition = "4s";
-
-
+   body.style.transition = "3s";
+   nav.style.backgroundColor ="grey"
+   nav.classList.remove('bg-white')
+   nav.style.transition ='3s'
 
 }
 noir.addEventListener("click", changeColor)
@@ -39,6 +82,9 @@ noir.addEventListener("click", changeColor)
 let changeColor2 = () => {
    body.style.backgroundColor = "";
    body.style.transition = "3s";
+   nav.classList.add('bg-white')
+   nav.style.transition ='3s'
+
 
 }
 blanc.addEventListener("click", changeColor2)
